@@ -54,7 +54,7 @@ def load_model_and_scaler():
     
     try:
         # Load model
-        if os.path.exists('Model.h5'):
+        if os.path.exists('model/Model.h5'):
             model = keras.models.load_model('Model.h5')
             print("✅ Model loaded successfully")
         else:
@@ -62,7 +62,7 @@ def load_model_and_scaler():
             return False
         
         # Load scaler
-        if os.path.exists('scaler.pkl'):
+        if os.path.exists('model/scaler.pkl'):
             with open('scaler.pkl', 'rb') as f:
                 scaler = pickle.load(f)
             print("✅ Scaler loaded successfully")
