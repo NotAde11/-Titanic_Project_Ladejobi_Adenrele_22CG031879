@@ -1,0 +1,11 @@
+Name: Ladejobi Adenrele
+
+Matric Number: 22CG031879
+
+Machine Learning Algorithm Used: Artificial Neural Network (ANN)
+
+Model persistence method used: Pickle and Keras (.h5)
+
+Live URL of the hosted application: https://titanic-project-ladejobi-adenrele.onrender.com
+
+GitHub repository link: https://github.com/NotAde11/-Titanic_Project_Ladejobi_Adenrele_22CG031879
